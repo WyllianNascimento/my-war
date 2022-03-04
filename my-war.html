@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/my-war.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>My War</title>
+</head>
+<body>
+    <header>
+        <h1>My War</h1>
+        <p>
+            Por <a href="https://youtu.be/RT4uN2IKm3s" target="_blank">Miura Jam</a>
+        </p>
+        <audio src="audio/my-war.mp3" loop></audio>
+        <button id="play">Play</button>
+        <button id="pause">Pause</button>
+    </header>
+    <section class="imagem" id="img1">
+        <p>
+            Da escuridão, um recomeço <br>
+            Até que a luz revele o fim <br>
+            Tristeza, ódio, desespero <br>
+            Na miséria terminou <br>
+            Os olhos julgam e condenam <br>
+            Ao lar vocês retornarão <br>
+            Sombrias faces me atormentam <br>
+            Essa é a guerra final
+        </p>
+    </section>
+    <section class="normal" id="cor1">
+        <p>
+            Anjos adotam faces que do mal surgem <br>
+            Crianças sem fé vão perder o seu valor <br>
+            Anjos adotam faces que do mal surgem <br>
+            Crianças vão perder o amanhã
+        </p>
+    </section>
+    <section class="imagem" id="img2">
+        <p>
+            Destruição, Renovação <br>
+            O real inimigo é você <br> <br>
+            E das memórias, só o trauma <br>
+            Conforto é só uma ilusão <br>
+            Na fria noite vou vagando <br>
+            Pra me livrar da imperfeição
+        </p>
+    </section>
+    <section class="normal" id="cor2">
+        <p>
+            A dor do coração aumenta <br>
+            Do escárnio que há contra mim <br>
+            No meu regresso, um choro ecoa <br>
+            Essa é a guerra final
+        </p>
+    </section>
+    <section class="imagem" id="img3">
+        <p>
+            Anjos adotam faces que do mal surgem <br>
+            Crianças sem fé vão perder o seu valor <br>
+            Anjos adotam faces que do mal surgem <br>
+            Crianças vão perder o amanhã <br> <br>
+            Destruição, Renovação <br>
+            O real inimigo é você 
+        </p>
+    </section>
+    <section class="normal" id="cor3">
+        <p>
+            E o caminho de volta não vou ver <br>
+            Pois o Sol se pondo só revela um triste fim <br>
+            Sinto tudo em volta desabar <br>
+            Um sinal eu preciso tanto receber
+        </p>
+    </section>
+    <section class="imagem" id="img5">
+        <p>
+            E o caminho de volta não terá <br>
+            E você só irá tudo lamentar <br>
+            Flores que já sumiram por esta trilha <br>
+            Um dia sei que irão renascer
+        </p>
+    </section>
+    <section class="normal" id="cor4">
+        <p>
+            E o caminho de volta não vou ver <br>
+            Pois o Sol se pondo só revela um triste fim <br>
+            Sombras envolvem todos ao redor <br>
+            E só então será capaz de entender que ficou só
+        </p>
+    </section>
+    <section class="imagem" id="img6">
+        <p>
+            O exílio no fim lhe encontrará <br>
+            E você só irá tudo lamentar <br>
+            Basta que veja a luz de um novo dia <br>
+            E a luta finda no alvorecer <br> <br>
+            GUERRA !!! <br>
+            GUERRA !!! <br>
+            GUERRA !!!
+        </p>
+    </section>
+    <footer>
+        <p>Developed by <a href="https://github.com/WyllianNascimento" target="_blank">Wyllian Nascimento</a></p>
+    </footer>
+    <script>
+        const play = document.querySelector('#play')
+        const pause = document.querySelector('#pause')
+        play.addEventListener('click', function(){
+            const audio = document.querySelector('audio')
+            audio.play()
+        })
+        pause.addEventListener('click', function(){
+            const audio = document.querySelector('audio')
+            audio.pause()
+        })
+    </script>
+</body>
+</html>
