@@ -118,13 +118,13 @@ section#img1 {
 }
 
 section#img2 {
-    background-image: url(../imagens/my-war02.jpg);
+    background-image: url(../imagens/my-war07.jpg);
     background-position: center top;
 }
 
 section#img3 {
     background-image: url(../imagens/my-war04.jpg);
-    background-position: top center;
+    background-position: center center;
 }
 
 section#img4 {
@@ -139,6 +139,7 @@ section#img5 {
 
 section#img6 {
     background-image: url(../imagens/my-war03.jpg);
+    background-position: center center;
 }
 
 footer {
